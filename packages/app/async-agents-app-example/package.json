@@ -1,0 +1,14 @@
+{
+    "name": "async-agents-app-example",
+    "version": "0.0.1",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "dev": "ts-node-dev src/index.ts",
+        "build": "tsc -p ."
+    },
+    "dependencies": {
+        "async-agents-core": "*"
+    }
+}

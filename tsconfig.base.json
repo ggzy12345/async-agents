@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "async-agents-core": [
+                "packages/shared/async-agents-core/src"
+            ]
+        },
+        "target": "ES2021",
+        "module": "CommonJS",
+        "lib": [
+            "ES2021",
+            "DOM"
+        ],
+        "moduleResolution": "Node",
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "composite": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
+    }
+}

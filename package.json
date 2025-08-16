@@ -1,0 +1,24 @@
+{
+  "license": "MIT",
+  "workspaces": [
+    "packages/*/*"
+  ],
+  "packageManager": "yarn@1.22.22",
+  "scripts": {
+    "dev": "turbo run dev --no-cache",
+    "build": "turbo run build --no-cache",
+    "lint": "turbo run lint",
+    "clean": "rm -rf packages/*/dist node_modules/.cache/turbo",
+    "build:core": "yarn workspace async-agents-core build",
+    "build:app": "yarn workspace async-agents-app-example build",
+    "build:backend": "yarn workspace async-agents-backend-example build",
+    "buildAll": "yarn build:core && yarn build:app && yarn build:backend",
+    "dev:app": "yarn workspace async-agents-app-example dev",
+    "dev:backend": "yarn workspace async-agents-backend-example dev"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "turbo": "^2.5.5",
+    "typescript": "^5.9.2"
+  }
+}
