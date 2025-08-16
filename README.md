@@ -16,3 +16,10 @@ A lightweight typescript AI agents framework for building concurrent application
 3. **Tool Calling**: Function execution with reflection  
 4. **Selector**: Intelligent agent assignment  
 5. **Workflow**: Managed multi-step processes  
+
+### Get Started
+Try this AI native way to get started. Copy below files and paste it to ask AI. 
+1. **Core code all in one file**: https://github.com/ggzy12345/async-agents/blob/main/packages/shared/async-agents-core/project-ai.md
+2. **Example code all in one file**: https://github.com/ggzy12345/async-agents/blob/main/packages/backend/async-agents-backend-example/project-ai.md
+
+Example prompt is here: https://github.com/ggzy12345/async-agents/blob/main/packages/shared/async-agents-core/ai-prompt-examples.md
