@@ -1,0 +1,21 @@
+{
+    "name": "async-agents-backend-example",
+    "version": "0.0.1",
+    "license": "MIT",
+    "main": "dist/src/index.js",
+    "types": "dist/src/index.d.ts",
+    "scripts": {
+        "m2m": "node ./merge-to-md.mjs",
+        "dev": "yarn build && node dist/src/index.js",
+        "build": "yarn m2m && tsc -p ."
+    },
+    "dependencies": {
+        "async-agents-core": "*",
+        "dotenv": "^17.2.1",
+        "openai": "^5.12.1",
+        "uuid": "^11.1.0"
+    },
+    "devDependencies": {
+        "@types/node": "^24.1.0"
+    }
+}
