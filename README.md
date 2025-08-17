@@ -1,5 +1,7 @@
 # Async Agents Framework
 
+# Async Agents Framework
+
 A lightweight typescript AI agents framework for building concurrent applications with strong flow control.
 
 ## Features
@@ -19,10 +21,15 @@ A lightweight typescript AI agents framework for building concurrent application
 
 ### Get Started
 **NPM**: npm i async-agents-core or
+
 **YARN**: yarn add async-agents-core 
 
 Try this AI native way to get started. Copy below files and paste it to ask AI. 
 1. **Core code all in one file**: https://github.com/ggzy12345/async-agents/blob/main/packages/shared/async-agents-core/project-ai.md
 2. **Example code all in one file**: https://github.com/ggzy12345/async-agents/blob/main/packages/backend/async-agents-backend-example/project-ai.md
 
-Example prompt is here: https://github.com/ggzy12345/async-agents/blob/main/packages/shared/async-agents-core/ai-prompt-examples.md
+3. **Example prompt**: https://github.com/ggzy12345/async-agents/blob/main/packages/shared/async-agents-core/ai-prompt-examples.md
+
+4. **Example coding with AI**:
+ 
+[![Watch the video](https://img.youtube.com/vi/qejoEK3H4Bw/0.jpg)](https://www.youtube.com/watch?v=qejoEK3H4Bw)
