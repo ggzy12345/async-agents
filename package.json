@@ -1,6 +1,18 @@
 {
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
+  "keywords": [
+    "async",
+    "agents",
+    "ai",
+    "LLM",
+    "typescript",
+    "concurrency",
+    "lightweight",
+    "testable",
+    "agents framework",
+    "flow-control"
+  ],
   "scripts": {
     "dev": "turbo run dev --no-cache",
     "build": "turbo run build --no-cache",
