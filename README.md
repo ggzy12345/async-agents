@@ -17,6 +17,29 @@ A lightweight typescript AI agents framework for building concurrent application
 4. **Selector**: Intelligent agent assignment  
 5. **Workflow**: Managed multi-step processes  
 
+### Design Overview
+This is an email-like messaging system. Key design elements explained below.
+
+####    Email-like Messaging:
+
+Each entity (Manager/Agents) has its own virtual mailbox (persistent storage)
+
+Messages have explicit types: **NEW**, **FORWARD**, **REPLY**
+
+All communications are asynchronous and stored
+
+####    Message Flow:
+
+**NEW**: End User initiates conversation with Manager
+
+**FORWARD**: Manager routes messages to agents
+
+**REPLY**: Agents respond to Manager (not directly to End User)
+
+Final **REPLY**: Manager responds to End User
+
+![Email-like Messaing](./async-agents.png)
+
 ### Get Started
 **NPM**: npm i async-agents-core or
 
