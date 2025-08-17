@@ -644,7 +644,6 @@ export class ModelClient implements IModelClient {
 
 ## File: src/models/types.ts
 ```ts
-import { Stream } from "openai/core/streaming";
 export type Role = "user" | "assistant" | "system" | "tool";
 export const MODEL_INBOUND_ROLE: Role = "user";
 export const MODEL_OUTBOUND_ROLE: Role = "assistant";
@@ -701,7 +700,7 @@ export interface IClientSdk {
             ): Promise<any>;
             create(
                 params: any
-            ): Promise<Stream<any>>;
+            ): Promise<any>;
         };
     };
 }
