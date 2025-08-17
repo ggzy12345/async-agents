@@ -1,5 +1,3 @@
-import { Stream } from "openai/core/streaming";
-
 export type Role = "user" | "assistant" | "system" | "tool";
 
 export const MODEL_INBOUND_ROLE: Role = "user";
@@ -66,7 +64,7 @@ export interface IClientSdk {
 
             create(
                 params: any
-            ): Promise<Stream<any>>;
+            ): Promise<any>;
         };
     };
 }

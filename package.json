@@ -1,8 +1,5 @@
 {
   "license": "MIT",
-  "workspaces": [
-    "packages/*/*"
-  ],
   "packageManager": "yarn@1.22.22",
   "scripts": {
     "dev": "turbo run dev --no-cache",

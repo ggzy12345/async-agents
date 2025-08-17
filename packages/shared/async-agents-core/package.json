@@ -1,12 +1,22 @@
 {
     "name": "async-agents-core",
-    "version": "0.0.1",
+    "version": "0.0.8",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ggzy12345/async-agents.git"
+    },
     "main": "dist/src/index.js",
     "types": "dist/src/index.d.ts",
+    "files": [
+        "dist/",
+        "README.md",
+        "LICENSE"
+    ],
     "scripts": {
         "m2m": "node ./merge-to-md.mjs",
         "build": "yarn m2m && tsc -p .",
+        "patch": "npm version patch",
         "publish": "yarn build && npm publish"
     }
 }
