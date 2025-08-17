@@ -21,17 +21,7 @@ Please help me write a TypeScript example showing how to register beforeHooks an
 
 ---
 
-## 3. onContextChanged Callback Example
-
-**Scenario Description**:  
-Listen for context changes inside AgentManager, print the changed fields, and demonstrate how to handle logging.
-
-**Example Prompt**:  
-Please help me write a TypeScript example showing how to set an onContextChanged callback in AgentManager, where the callback prints the changed context fields, along with the old and new states.
-
----
-
-## 4. BroadcastChannel Multi-Thread Communication Example
+## 3. BroadcastChannel Multi-Thread Communication Example
 
 **Scenario Description**:  
 Use BroadcastChannel to enable multi-threaded agent communication, listening for messages and sending commands.
@@ -41,7 +31,7 @@ Please help me write a TypeScript example using BroadcastChannel to implement si
 
 ---
 
-## 5. GCP Pub/Sub Integration Example
+## 4. GCP Pub/Sub Integration Example
 
 **Scenario Description**:  
 Integrate GCP Pub/Sub in Node.js to enable message publishing and subscription.
