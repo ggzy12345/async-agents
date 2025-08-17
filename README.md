@@ -1,7 +1,5 @@
 # Async Agents Framework
 
-# Async Agents Framework
-
 A lightweight typescript AI agents framework for building concurrent applications with strong flow control.
 
 ## Features
