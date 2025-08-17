@@ -1,11 +1,23 @@
 {
     "name": "async-agents-core",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "license": "MIT",
     "repository": {
         "type": "git",
         "url": "https://github.com/ggzy12345/async-agents.git"
     },
+    "keywords": [
+        "async",
+        "agents",
+        "ai",
+        "LLM",
+        "typescript",
+        "concurrency",
+        "lightweight",
+        "testable",
+        "agents framework",
+        "flow-control"
+    ],
     "main": "dist/src/index.js",
     "types": "dist/src/index.d.ts",
     "files": [
