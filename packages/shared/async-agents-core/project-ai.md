@@ -399,7 +399,7 @@ export class AgentManager implements IAgentRegister, IHandler {
             state: INPROGRESS
         };
         let loopCount = currentContext.round ?? 0;
-        while (currentContext && loopCount++ < 10) {
+        while (currentContext && loopCount++ < 1000) {
             try {
                 currentContext = {
                     ...currentContext,

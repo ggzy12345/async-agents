@@ -45,7 +45,7 @@ Final **REPLY**: Manager responds to End User
 
 **YARN**: yarn add async-agents-core 
 
-Try this AI native way to get started. Copy below files and paste it to ask AI. 
+Try this AI native way to get started. Copy below files and paste them to ask AI. 
 1. **Core code all in one file**: https://github.com/ggzy12345/async-agents/blob/main/packages/shared/async-agents-core/project-ai.md
 2. **Example code all in one file**: https://github.com/ggzy12345/async-agents/blob/main/packages/backend/async-agents-backend-example/project-ai.md
 
